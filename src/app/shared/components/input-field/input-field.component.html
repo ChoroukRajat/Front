@@ -1,0 +1,11 @@
+<div class="txt_field">
+  <input 
+    class="input"
+    type="text" 
+    [value]="value" 
+    (input)="onValueChange($event)" 
+    required
+  />
+  <span></span>
+  <label>{{placeholder}}</label>
+</div>

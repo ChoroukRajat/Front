@@ -1,0 +1,29 @@
+<div class="card">
+  <div class="card1" style="margin-right: 50px; padding-left: 35px;">
+    <h1 style="color: rgb(76,32,2);">Sign In</h1>
+<app-input-field 
+  placeholder="Username" 
+  (valueChange)="onInputValueChange($event)">
+</app-input-field>
+
+<app-input-field 
+  placeholder="Password" 
+  (valueChange)="onInputValueChange($event)">
+</app-input-field>
+
+<a href="" style="text-decoration: none;"><div class="pass">Forgot Password?</div></a>
+<a href="" style="text-decoration: none;"><div class="pass">Don't have an account? Sign Up</div></a>
+
+
+<app-button 
+  btnClass="btnClass" 
+  text="Submit" 
+  (onClick)="onButtonClick()">
+</app-button>
+</div >
+<div class="card1">
+  <img src="welcomeSwi9a.png" alt="">
+  <h1 style="color: rgb(76,32,2);">Welcome to your moroccan marketplace</h1>
+  <img src="logo1.png" alt="" style="width: 250px; align-self: center;margin-bottom: 15px;">
+</div>
+</div>
